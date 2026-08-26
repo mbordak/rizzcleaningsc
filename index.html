@@ -1,1 +1,401 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rizz Cleaning Services</title><style>:root{--t:#087d7c;--g:#c79a45}*{box-sizing:border-box}body{margin:0;font-family:Arial;color:#171717}header{background:#090909;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center}.logo{font:italic 30px Georgia;color:var(--g)}.hero{min-height:650px;padding:70px 7%;display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center;background:linear-gradient(120deg,#080808 0 50%,#0a6261);color:white}.hero h1{font:500 clamp(48px,7vw,86px)/1 Georgia}.hero em{color:var(--g)}.btn{display:inline-block;background:var(--t);padding:14px 22px;color:white;text-decoration:none;font-weight:bold}.team{border:1px solid var(--g);padding:30px}.task{padding:18px 0;border-top:1px solid #ffffff33}.section{padding:70px 7%}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:25px;background:#f5f1e8;border-top:3px solid var(--t)}.areas{padding:50px 7%;text-align:center;background:var(--t);color:white}footer{background:#080808;color:#ccc;text-align:center;padding:28px;border-top:2px solid var(--g)}@media(max-width:750px){.hero{grid-template-columns:1fr}.services{grid-template-columns:1fr}}</style></head><body><header><div class="logo">Rizz Cleaning Services</div><a class="btn" href="tel:5034222420">Call or Text</a></header><section class="hero"><div><p>FAMILY-RUN • SERVING THE UPSTATE</p><h1>A higher standard of <em>clean.</em></h1><p>Professional residential and commercial cleaning with thoughtful details, dependable service, and personal care.</p><a class="btn" href="sms:5034222420">REQUEST A QUOTE</a></div><div class="team"><h2>Three women. One standard of care.</h2><div class="task">01 — Detailing kitchens & surfaces</div><div class="task">02 — Refreshing glass & fixtures</div><div class="task">03 — Finishing floors & final touches</div></div></section><section class="section"><h2>Clean spaces. Better places.</h2><div class="services"><div class="card"><h3>Residential Cleaning</h3></div><div class="card"><h3>Deep Cleaning</h3></div><div class="card"><h3>Move-In / Move-Out</h3></div><div class="card"><h3>Commercial & Office</h3></div><div class="card"><h3>Airbnb Turnovers</h3></div><div class="card"><h3>Professional Organizing</h3></div></div></section><section class="areas"><h2>Proudly Serving Upstate South Carolina</h2><p>Spartanburg • Greenville • Woodruff • Gaffney and surrounding areas</p></section><footer>Rizz Cleaning Services • 503-422-2420 • rizzservicesllc@hotmail.com</footer></body></html>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Rizz Cleaning Services | Upstate South Carolina</title>
+
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+html{scroll-behavior:smooth}
+
+body{font-family:Arial,sans-serif;background:#050706;color:#fff;line-height:1.6}
+
+:root{--gold:#c8953f;--teal:#007f80;--cream:#eee7dc;--dark:#050706}
+
+a{text-decoration:none;color:inherit}
+
+header{background:#030403;border-bottom:1px solid #9b6d2d;position:sticky;top:0;z-index:10}
+
+nav{max-width:1200px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:18px 5%}
+
+.logo{font-family:Georgia,serif;font-style:italic;font-size:38px;color:var(--gold);line-height:1}
+
+.logo small{display:block;font-family:Arial,sans-serif;font-style:normal;font-size:10px;letter-spacing:4px;color:white;margin-top:7px}
+
+.links{display:flex;gap:25px;align-items:center;font-size:13px}
+
+.quote{border:1px solid var(--gold);padding:12px 18px;border-radius:5px}
+
+.hero{background:linear-gradient(105deg,rgba(239,233,222,.98) 0%,rgba(239,233,222,.94) 47%,rgba(0,40,38,.5) 100%);color:#111;min-height:650px;display:grid;grid-template-columns:47% 53%}
+
+.heroText{padding:90px 8%}
+
+.eyebrow{color:#71501d;letter-spacing:3px;font-size:13px;margin-bottom:15px}
+
+h1{font-family:Georgia,serif;font-size:60px;line-height:1.05;font-weight:400;margin-bottom:25px}
+
+h1 span{color:#004e50}
+
+.heroText p{max-width:480px;font-size:18px;margin-bottom:28px}
+
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+
+.btn{display:inline-block;padding:15px 22px;background:#003e40;color:white;border:1px solid var(--gold);border-radius:5px;font-weight:bold}
+
+.btn.alt{background:transparent;color:#222}
+
+.heroPhoto{min-height:650px;background:linear-gradient(135deg,#0a1c1b,#006b6c 55%,#111);display:flex;align-items:center;justify-content:center;padding:50px}
+
+.photoBox{border:1px solid var(--gold);padding:50px;text-align:center;max-width:480px;background:rgba(0,0,0,.35)}
+
+.photoBox .big{font-family:Georgia,serif;color:var(--gold);font-size:48px}
+
+.photoBox p{color:#eee;font-size:20px}
+
+.features{display:grid;grid-template-columns:repeat(4,1fr);background:#07100f;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold)}
+
+.feature{text-align:center;padding:35px 20px;border-right:1px solid #6e5127}
+
+.feature:last-child{border:0}
+
+.icon{font-size:35px;margin-bottom:10px}
+
+.feature h3{color:var(--gold);font-size:15px;letter-spacing:1px;margin-bottom:8px}
+
+.feature p{color:#ddd;font-size:14px}
+
+.section{padding:80px 6%}
+
+.light{background:linear-gradient(135deg,#eee8de,#dcd2c3);color:#151515}
+
+.sectionTitle{font-family:Georgia,serif;font-size:42px;font-weight:400;margin-bottom:15px}
+
+.gold{color:var(--gold)}
+
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;max-width:1200px;margin:auto}
+
+.aboutVisual{min-height:430px;background:linear-gradient(145deg,#013f40,#091211);border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;padding:40px;text-align:center}
+
+.aboutVisual span{font-family:Georgia,serif;font-size:45px;color:var(--gold)}
+
+.aboutText p{margin:20px 0}
+
+.checks{list-style:none;margin:25px 0}
+
+.checks li{margin:10px 0}
+
+.checks li:before{content:"✓";color:var(--gold);margin-right:12px}
+
+.services{text-align:center;background:#061110}
+
+.cards{max-width:1200px;margin:40px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+
+.card{border:1px solid #755629;padding:35px 25px;background:linear-gradient(145deg,#0a1211,#002e2e);min-height:210px}
+
+.card h3{font-family:Georgia,serif;color:var(--gold);font-size:24px;margin:12px 0}
+
+.card p{color:#ddd}
+
+.banner{text-align:center;background:#003c3d;padding:35px 5%;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold)}
+
+.banner h2{font-family:Georgia,serif;font-size:32px}
+
+.locations{color:var(--gold);letter-spacing:2px;margin-top:10px}
+
+.reviews{background:#080b0a;text-align:center}
+
+.reviewGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1100px;margin:35px auto 0}
+
+.review{border:1px solid var(--gold);padding:28px;background:#0b1110}
+
+.stars{color:var(--gold);font-size:22px}
+
+.contact{background:linear-gradient(130deg,#eee8dd,#d9d0c3);color:#111;text-align:center}
+
+.contactBox{max-width:750px;margin:auto}
+
+.contactBox p{margin:15px 0 30px}
+
+footer{background:#030403;padding:45px 6% 25px;border-top:1px solid var(--gold)}
+
+.footerGrid{max-width:1200px;margin:auto;display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px}
+
+footer h3{color:var(--gold);margin-bottom:12px}
+
+footer p,footer li{color:#ccc;font-size:14px;list-style:none;margin:5px 0}
+
+.copy{text-align:center;color:#777;font-size:12px;margin-top:35px;padding-top:20px;border-top:1px solid #292929}
+
+@media(max-width:800px){
+
+.links a:not(.quote){display:none}
+
+.logo{font-size:30px}
+
+.hero{grid-template-columns:1fr;min-height:auto}
+
+.heroText{padding:65px 7%}
+
+h1{font-size:47px}
+
+.heroPhoto{min-height:370px}
+
+.features{grid-template-columns:1fr 1fr}
+
+.feature{border-bottom:1px solid #6e5127}
+
+.about{grid-template-columns:1fr}
+
+.cards,.reviewGrid{grid-template-columns:1fr}
+
+.footerGrid{grid-template-columns:1fr}
+
+.section{padding:60px 7%}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">Rizz ♛<small>CLEANING SERVICES</small></div>
+
+<div class="links">
+
+<a href="#about">ABOUT US</a>
+
+<a href="#services">SERVICES</a>
+
+<a href="#reviews">REVIEWS</a>
+
+<a href="#contact">CONTACT</a>
+
+<a class="quote" href="#contact">GET A FREE QUOTE ✦</a>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="heroText">
+
+<div class="eyebrow">FAMILY-RUN • SERVING THE UPSTATE</div>
+
+<h1>CLEAN SPACES.<br><span>BETTER PLACES.</span></h1>
+
+<p>Reliable, detailed and trustworthy cleaning for homes, offices, and the spaces you count on every day.</p>
+
+<div class="actions">
+
+<a class="btn" href="tel:5034222420">☎ CALL OR TEXT<br>503-422-2420</a>
+
+<a class="btn alt" href="mailto:rizzservicesllc@hotmail.com">✉ EMAIL US</a>
+
+</div>
+
+</div>
+
+<div class="heroPhoto">
+
+<div class="photoBox">
+
+<div class="big">Rizz ♛</div>
+
+<p>CLEANING SERVICES</p>
+
+<br>
+
+<p>Professional care.<br>Exceptional attention to detail.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="features">
+
+<div class="feature"><div class="icon">⌂</div><h3>HOMES</h3><p>Clean, comfortable spaces for your family to enjoy.</p></div>
+
+<div class="feature"><div class="icon">▦</div><h3>OFFICES</h3><p>A clean workplace makes a better workday.</p></div>
+
+<div class="feature"><div class="icon">✦</div><h3>SPACES WE CARE FOR</h3><p>We treat every space like our own.</p></div>
+
+<div class="feature"><div class="icon">◷</div><h3>FLEXIBLE & RELIABLE</h3><p>Dependable service built around your needs.</p></div>
+
+</section>
+
+<section class="section light" id="about">
+
+<div class="about">
+
+<div class="aboutText">
+
+<div class="eyebrow">ABOUT US ♛</div>
+
+<h2 class="sectionTitle">ROOTED IN VALUES.<br><span style="color:#005b5c">FOCUSED ON YOU.</span></h2>
+
+<p>Rizz Cleaning Services is a family-run cleaning company serving Upstate South Carolina. We believe a beautifully cleaned space is about more than appearances — it gives you time, comfort and peace of mind.</p>
+
+<ul class="checks">
+
+<li>Thoughtful attention to detail</li>
+
+<li>Reliable and trustworthy service</li>
+
+<li>High standards and professional results</li>
+
+<li>Locally owned and family focused</li>
+
+</ul>
+
+<a href="#contact" class="btn">GET YOUR FREE QUOTE ✦</a>
+
+</div>
+
+<div class="aboutVisual"><span>Details make<br>the difference.</span></div>
+
+</div>
+
+</section>
+
+<section class="section services" id="services">
+
+<div class="eyebrow gold">WHAT WE DO</div>
+
+<h2 class="sectionTitle">Cleaning designed around your space.</h2>
+
+<div class="cards">
+
+<div class="card"><div class="icon">⌂</div><h3>Residential Cleaning</h3><p>Dependable home cleaning that keeps your space fresh, comfortable and cared for.</p></div>
+
+<div class="card"><div class="icon">✦</div><h3>Deep Cleaning</h3><p>A detailed top-to-bottom reset for spaces that need extra attention.</p></div>
+
+<div class="card"><div class="icon">▦</div><h3>Office & Commercial</h3><p>Professional cleaning for offices and commercial spaces throughout the Upstate.</p></div>
+
+<div class="card"><div class="icon">◇</div><h3>Move-In / Move-Out</h3><p>Detailed cleaning to prepare a home for its next chapter.</p></div>
+
+<div class="card"><div class="icon">⌑</div><h3>Airbnb Turnovers</h3><p>Reliable turnovers to help keep your property guest-ready.</p></div>
+
+<div class="card"><div class="icon">✓</div><h3>Professional Organizing</h3><p>Thoughtful organization for calmer, more functional spaces.</p></div>
+
+</div>
+
+</section>
+
+<section class="banner">
+
+<h2>Proudly Serving the Upstate</h2>
+
+<div class="locations">SPARTANBURG • INMAN • BOILING SPRINGS • LYMAN & SURROUNDING AREAS</div>
+
+</section>
+
+<section class="section reviews" id="reviews">
+
+<div class="eyebrow gold">CLIENT EXPERIENCE</div>
+
+<h2 class="sectionTitle">A higher standard of care.</h2>
+
+<div class="reviewGrid">
+
+<div class="review"><div class="stars">★★★★★</div><p>Detailed service, dependable communication, and a home that feels beautifully refreshed.</p></div>
+
+<div class="review"><div class="stars">★★★★★</div><p>Professional care and attention to the little things that make a big difference.</p></div>
+
+<div class="review"><div class="stars">★★★★★</div><p>Reliable, thorough cleaning from a local team that truly cares about the result.</p></div>
+
+</div>
+
+</section>
+
+<section class="section contact" id="contact">
+
+<div class="contactBox">
+
+<div class="eyebrow">READY FOR A CLEANER SPACE?</div>
+
+<h2 class="sectionTitle">Let us take care of the cleaning.</h2>
+
+<p>Tell us about your home, office, move, or property and we'll help you get started with a personalized quote.</p>
+
+<div class="actions" style="justify-content:center">
+
+<a class="btn" href="tel:5034222420">CALL OR TEXT 503-422-2420</a>
+
+<a class="btn" href="mailto:rizzservicesllc@hotmail.com">EMAIL FOR A QUOTE</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="footerGrid">
+
+<div>
+
+<div class="logo">Rizz ♛<small>CLEANING SERVICES</small></div>
+
+<p style="margin-top:20px">Clean spaces. Better places.</p>
+
+</div>
+
+<div>
+
+<h3>CONTACT</h3>
+
+<p>503-422-2420</p>
+
+<p>rizzservicesllc@hotmail.com</p>
+
+<p>Serving Upstate South Carolina</p>
+
+</div>
+
+<div>
+
+<h3>QUICK LINKS</h3>
+
+<ul>
+
+<li><a href="#about">About Us</a></li>
+
+<li><a href="#services">Services</a></li>
+
+<li><a href="#reviews">Reviews</a></li>
+
+<li><a href="#contact">Request a Quote</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="copy">© 2026 Rizz Cleaning Services. All Rights Reserved.</div>
+
+</footer>
+
+</body>
+
+</html>
