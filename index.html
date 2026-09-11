@@ -754,6 +754,30 @@ nav{min-height:78px}
   .hero-photo{
     margin-top:24px !important;
   }
+}/* FINAL MOBILE PHOTO FIX */
+
+@media(max-width:850px){
+
+  .hero-photo{
+    width:100%;
+    height:auto !important;
+    min-height:0 !important;
+    overflow:visible !important;
+    margin-top:24px !important;
+  }
+
+  .hero-photo img{
+    width:100%;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    object-fit:contain !important;
+    display:block;
+  }
+
+  .hero .buttons .btn.alt{
+    display:none !important;
+  }
 }
 </style>
 
